@@ -2,6 +2,10 @@
 using namespace std;
 
 int main(){
-	cout << "hello world";
+	int a = 5;
+	int &b = a;
+	
+	a = 10 ;
+	cout << b ;
 	return 0;
 }
